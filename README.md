@@ -2,15 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
-[![Build Status](https://travis-ci.org/ericwang1120/angular-boilerplate.svg)](https://travis-ci.org/ericwang1120/angular-boilerplate)
-[![GitHub version](https://badge.fury.io/gh/ericwang1120%2Fangular-boilerplate.svg)](https://badge.fury.io/gh/ericwang1120%2Fangular-boilerplate)
-
 ### Homepage
 ![](_screenshots/homepage.png)
 
 
 ### About
-The boilerplate is based on [Angular Starter](https://github.com/AngularClass/angular-starter). 
+The boilerplate is for a angular project. This angular boilerplate include Bootstrap, fontawesome, SCSS/Sass and angular routing.**[My Blog](http://developerstips.com/)**
 
 ### External Functionalities
 
@@ -62,3 +59,6 @@ npm run start / ng serve / ng s
 - ng g page-not-found
 
 ### All the code change after the project generation are separated by commit, please refer the commit for better understanding
+
+### About Me
+**[Profile](http://krishna.developerstips.com)**
