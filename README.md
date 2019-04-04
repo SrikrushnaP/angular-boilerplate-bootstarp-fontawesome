@@ -2,9 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
-### Homepage
-![](_screenshots/homepage.png)
-
 
 ### About
 The boilerplate is for a angular project. This angular boilerplate include Bootstrap, fontawesome, SCSS/Sass and angular routing.**[My Blog](http://developerstips.com/)**
@@ -46,19 +43,19 @@ npm run start / ng serve / ng s
 
 ### Comand used for creating the same
 
-- ng new angular-boilerplate-bootstarp-fontawesome --style=scss --routing
+- **ng new angular-boilerplate-bootstarp-fontawesome --style=scss --routing**
 : Used for crating new project with routing and scss.
 
-- npm install bootstrap: latest version bootstrap instalation
+- **npm install bootstrap**: latest version bootstrap instalation
 
-- npm i font-awesome: Font awesome install using
+- **npm i font-awesome**: Font awesome install using
 
-- ng g c home: generate the component. similarly I create another three component(sign-in, sign-up and page-not-found)
-- ng g sign-in
-- ng g sign-up
-- ng g page-not-found
+- **ng g c home**: generate the component. similarly I create another three component(sign-in, sign-up and page-not-found)
+- **ng g sign-in**: Create sign in component
+- **ng g sign-up**: Create sign up component
+- **ng g page-not-found**: Create page-not-found component
 
 ### All the code change after the project generation are separated by commit, please refer the commit for better understanding
 
 ### About Me
-**[Profile](http://krishna.developerstips.com)**
+Srikrushna Pal(Krishna)**[Profile](http://krishna.developerstips.com)**
