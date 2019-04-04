@@ -2,26 +2,63 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
-## Development server
+[![Build Status](https://travis-ci.org/ericwang1120/angular-boilerplate.svg)](https://travis-ci.org/ericwang1120/angular-boilerplate)
+[![GitHub version](https://badge.fury.io/gh/ericwang1120%2Fangular-boilerplate.svg)](https://badge.fury.io/gh/ericwang1120%2Fangular-boilerplate)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Homepage
+![](_screenshots/homepage.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### About
+The boilerplate is based on [Angular Starter](https://github.com/AngularClass/angular-starter). 
 
-## Build
+### External Functionalities
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+External libraries are provided:
 
-## Running unit tests
+- [Bootstrap](https://getbootstrap.com/)
+- [font-awesome](http://fontawesome.io/)
+- [routing](https://angular.io/guide/router)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### How to use
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. 
+```
+git clone https://github.com/SrikrushnaP/angular-boilerplate-bootstarp-fontawesome.git
+```
 
-## Further help
+2. 
+```
+cd angular-boilerplate-bootstarp-fontawesome
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+3. 
+``` 
+npm install
+``` 
+or  
+``` 
+yarn install 
+```  
+
+4. 
+```
+npm run start / ng serve / ng s
+```
+
+### Comand used for creating the same
+
+- ng new angular-boilerplate-bootstarp-fontawesome --style=scss --routing
+: Used for crating new project with routing and scss.
+
+- npm install bootstrap: latest version bootstrap instalation
+
+- npm i font-awesome: Font awesome install using
+
+- ng g c home: generate the component. similarly I create another three component(sign-in, sign-up and page-not-found)
+- ng g sign-in
+- ng g sign-up
+- ng g page-not-found
+
+### All the code change after the project generation are separated by commit, please refer the commit for better understanding
